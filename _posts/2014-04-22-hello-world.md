@@ -1,6 +1,6 @@
 ---
 layout: post
-title:hellow word
+title: hellow word
 photo_url: https://d13yacurqjgara.cloudfront.net/users/42361/screenshots/1518851/800.png
 ---
 
