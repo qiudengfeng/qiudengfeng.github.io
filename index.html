@@ -5,11 +5,9 @@ layout: default
 <ul>
 {% for post in site.posts %}
 <li>
-{% if post.photo_url %}
 <a href="{{ post.url }}">
 <p>{{ post.photo_url }}</p>
 <p>{{ post.title }}</p>
-{% endif %}
 </a>
 </li>
 {% endfor %}
