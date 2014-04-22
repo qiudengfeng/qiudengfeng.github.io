@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<ul>
+<div>
 {% for post in site.posts %}
-<li>
+<div>
 <a href="{{ post.url }}">
 <p><img src="{{ post.photo_url }}"></p>
 <p>{{ post.title }}</p>
 </a>
-</li>
+</div>
 {% endfor %}
-</ul>
+</div>
