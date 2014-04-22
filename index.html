@@ -4,6 +4,6 @@ layout: default
 
 <ul>
 {% for post in site.posts %}
-<li>{{ post.photo_url }}</li>
+<li><a href="{{ post.url }}">{{ post.photo_url }}</a></li>
 {% endfor %}
 </ul>

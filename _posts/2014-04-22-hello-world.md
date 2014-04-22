@@ -1,9 +1,6 @@
 ---
 layout: post
-category: kod
-tumblr_id: 2363521264
-disqus_comments: true
-date: 2010-12-18 20:06:00 UTC
+category: works
 title:hellow word
 photo_url: https://d13yacurqjgara.cloudfront.net/users/42361/screenshots/1518851/800.png
 ---
