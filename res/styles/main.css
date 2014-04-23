@@ -26,6 +26,6 @@ a:hover, a.active { color: #e7161a;}
 .content .show p { padding: 0; margin: 0 0 35px 0;}
 
 /* footer */
-.footer { padding: 0 0 100px; clear: both;}
+.footer { padding: 0 0 100px; clear: both; font-size: 14px;}
 .footer .info { padding: 50px 0; text-align: center;}
 .footer .qrcode { height: 100px; text-align: center;}
