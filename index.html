@@ -9,7 +9,7 @@ layout: default
 <p class="preview"><img src="{{ post.photo_url }}"></p>
 <p class="title">{{ post.title }}</p>
 </a>
-<p class="date">2014/02/24</p>
+<p class="date">{{ page.date | date: "%Y %m/%d" }}/p>
 </li>
 {% endfor %}
 </ul>
