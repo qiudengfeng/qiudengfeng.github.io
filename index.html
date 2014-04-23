@@ -2,13 +2,14 @@
 layout: default
 ---
 
-<div>
+<ul class="portfolio">
 {% for post in site.posts %}
-<div>
+<li>
 <a href="{{ post.url }}">
-<p><img src="{{ post.photo_url }}" width="100"></p>
-<p>{{ post.title }}</p>
+<p class="preview"><img src="{{ post.photo_url }}"></p>
+<p class="title">{{ post.title }}</p>
 </a>
-</div>
+<p class="date">2014/02/24</p>
+</li>
 {% endfor %}
-</div>
+</ul>

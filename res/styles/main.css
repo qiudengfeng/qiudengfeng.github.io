@@ -1,0 +1,31 @@
+body { margin: 0; padding: 0; font-size: 14px; font-family: "Helvetica Neue",Helvetica,"Microsoft Yahei",Arial,sans-serif; line-height: 1.2; color: #666;}
+img { border: 0; background-color: #eee;}
+a { color: #666; text-decoration: none;}
+a:hover, a.active { color: #e7161a;}
+.date { color: #ccc;}
+
+.wrapper { margin: 0 auto; width: 900px;}
+
+/* header */
+.header { margin: 0; padding: 80px 0; height: 36px; position: relative;}
+.header .logo { background: url(/res/images/layouts/logo.png) no-repeat; padding: 0; margin: 0 0 0 436px; height: 36px; width: 36px; overflow: hidden; text-indent: 1000px; position: absolute;}
+.header .navigator { margin: 0 0 0 100px; padding: 0; height: 36px; width: 700px; list-style: none; position: absolute;}
+.header .navigator li { height: 36px; width: 350px; float: left; font-size: 16px; line-height: 36px; text-align: center;}
+
+
+/* content */
+.content {}
+
+/* portfolio list */
+.content .portfolio { margin: 0 0 0 -60px; padding: 0; list-style: none;}
+.content .portfolio li { margin-left: 60px; float: left; width: 180px; height: 240px;}
+.content .portfolio img { width: 180px; height: 135px;}
+
+/* portfolio show */
+.content .show { font-size: 14px;}
+.content .show p { padding: 0; margin: 0 0 35px 0;}
+
+/* footer */
+.footer { padding: 0 0 100px; clear: both;}
+.footer .info { padding: 50px 0; text-align: center;}
+.footer .qrcode { height: 100px; text-align: center;}

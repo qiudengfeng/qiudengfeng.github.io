@@ -1,13 +1,24 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ page.title }}</title>
-  </head>
-  <body>
-  {% include header.html %}
-    <div>
-      {{ content }}
-    </div>
-  {% include footer.html %}
-  </body>
+<head>
+  <title>{{ page.title }}</title>
+  <link href="./styles/main.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div class="wrapper">
+
+{% include header.html %}
+
+<div class="content">
+
+{{ content }}
+
+</div>
+
+{% include footer.html %}
+
+</div>
+
+</body>
 </html>
